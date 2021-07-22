@@ -50,5 +50,3 @@ cd my-app/frontend
 npm install 
 npm start
 ```
-
-We have accomplished all the improvements. Check out the final code in this repository.
