@@ -14,7 +14,7 @@ const [result, setResult] = useState({winner: "none", state: "none"});
         axios.post("http://localhost:6060/updateGame", postData)
             .then(response => {
               //check result from backend and also check total filled square.
-              if(response.data.data.tieOrWin == 1 && board.filter(Boolean).length === 9){
+              if(response.data.data.tieOrWin === 1 && board.filter(Boolean).length === 9){
                 //if Game is Tie
                   setResult({ winner: "No One", state: "Tie" });
                   alert(`Its Tie`);
@@ -22,7 +22,7 @@ const [result, setResult] = useState({winner: "none", state: "none"});
                   setPlayer("X");
                 
               }
-              else if(response.data.data.tieOrWin == 0){
+              else if(response.data.data.tieOrWin === 0){
                 if(response.data.data.winner === 'O'){
                   //If Player O wins. 
                   setResult({ winner: "O", state: "Won" });

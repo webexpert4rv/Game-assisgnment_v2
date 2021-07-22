@@ -41,12 +41,14 @@ Detailed directory structure for both front-end and back-end.
 ```git
 git clone git@github.com:webexpert4rv/Game-assisgnment_v2.git
 #For Backend (Node Js)
-cd my-app/backend
+cd backend
 npm install 
-npn run dev
+npm run dev
 
 #for Front End (React Js)
-cd my-app/frontend
+cd frontend
 npm install 
 npm start
 ```
+Now visit localhost:3000 (for frontend)
+And localost:6060 (for backend)
