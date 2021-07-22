@@ -6,19 +6,19 @@ prevents either player from achieving a line of 3 marks which results in a draw.
 
 Here are the improvements listed in order of increasing difficulty:
 1. [X] Get selected square with user id (val, id) format.
-2. [X] Initialize Board State when game start.
+2. [X] Initialise Board State when game start.
 3. [X] When Game complete (Tie/Win) Game will automatically restart.
 4. [X] When Someone Wins show popup message which player wins.
 5. [X] If Game is tie the show message No one wins game tie.
 
 ###  Technical requirements
-1. Node Js 15.9.0 with TypeScript (TS).
-2. React Js 17.0.2 with TypeScript (TS).
+1. Node Js 15.9.0 with Type Script (TS).
+2. React Js 17.0.2 with Type Script (TS).
 
 
 ### Structure
 
-Detailed directory structure for both frontend and backend.
+Detailed directory structure for both front-end and back-end.
 
     .
     │
